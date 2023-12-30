@@ -3,7 +3,7 @@
 import dash
 from dash import dcc, html, Input, Output, State
 import base64
-from langchain.prompts import PromptTemplate
+from langchain.prompts import ChatPromptTemplate
 from langchain.chat_models import ChatOpenAI
 import dash_bootstrap_components as dbc
 
